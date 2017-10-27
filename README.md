@@ -6,9 +6,9 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    GitHub account should appear.
 
 2. Clone your forked repository <X>:
-
-    git clone <Y>
-
+```
+git clone <Y>
+```
    This is necessary to contribute over a local copy, otherwise, you
    should be always connected to the Internet and use the GitHub
    facilities.
