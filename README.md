@@ -1,7 +1,7 @@
 # fork_and_branch_git_workflow
 https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
-1. Fork the "upstream" (with URL: <X>) repository (do that in
+1. Fork the "upstream" (with URL: `<X>`) repository (do that in
    upstream's GitHub page).  A new repository (with URL: <Y>) in your
    GitHub account should appear.
 
