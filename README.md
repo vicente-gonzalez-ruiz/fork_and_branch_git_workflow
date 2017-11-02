@@ -70,7 +70,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
 	5. Use:
 	```
-    git ckecout <branch>
+    git checkout <branch>
 	```
 	to work on a different branch <branch>.
 
