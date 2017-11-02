@@ -90,7 +90,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 8. Test that your repo `<Y>` at GitHub has a new branch `iss<Z>`. Log
    into GitHub and check that (click on the "Branch: master"
    button). Notice that the rest of current branches forked from `<X>`
-   will be also available.
+   will be also available, if any.
 
 9. Keep your fork `<Y>` always synchronized with `<X>`:
    ```
