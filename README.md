@@ -81,8 +81,8 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    to be sure that your local repo `<Y>` is updated.
 
 7. Synchronize your local repo `<Y>` with your remote repo `<Y>`
-   "origin" (remember that the father repo is `<X>` and it has the
-   name "upstream"):
+   "origin" (remember that the father repo is `<X>`, and that its name
+   is "upstream"):
    ```
    git push --set-upstream origin iss<Z>
    ```
