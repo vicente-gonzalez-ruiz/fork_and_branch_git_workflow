@@ -29,7 +29,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 4. Revise the list of open issues at `<X>` (not at `<Y>`, you won't be
    able to find issues at `<Y>` at this moment) and select one, for
    example, `iss<Z>`, where `<Z>` is the issue number that GitHub
-   automatically generates for every new branch. With the aim of
+   automatically generates for every new issue. With the aim of
    working in `iss<Z>`, create a new "feature" branch (in your local
    copy of `<Y>`) with:
    ```
