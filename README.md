@@ -13,8 +13,8 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    should be always connected to the Internet and use the GitHub
    facilities.
 
-3. At this moment, your local copy of `<X>` is only connected to your
-   remote repo `<X>` at GitHub. You can check this with:
+3. At this moment, your local copy of `<Y>` is only connected to your
+   remote repo `<Y>` at GitHub. You can check this with:
    ```
    git remote -v
    ```
