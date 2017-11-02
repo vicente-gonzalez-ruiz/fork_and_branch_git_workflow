@@ -94,8 +94,8 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
 9. Keep your fork `<Y>` always synchronized with `<X>`:
    ```
-   git pull upstream master # Update your local <Y>
-   git push origin master   # Synchronize with your remote <Y>
+   git pull upstream master # Update your local branch <Z> of <Y> with master of <X>
+   git push origin master   # Synchronize your local <Y> with your remote <Y>
    ```
    this is specially important just before requesting the pull-request
    (PR), because a modification at upstream master could affect your
