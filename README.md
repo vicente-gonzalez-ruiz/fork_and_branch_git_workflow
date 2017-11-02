@@ -18,7 +18,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    ```
    git remote -v
    ```
-   In order to make easuer future updates of your forked repo `<Y>` with
+   In order to make easier future updates of your forked repo `<Y>` with
    possible commits to `<X>`, add a new remote named "upstream" with:
    ```
    git remote add upstream <X>
