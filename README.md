@@ -97,20 +97,20 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    git pull upstream master # Update your local branch <Z> of <Y> with master of <X>
    git push origin master   # Synchronize your local <Y> with your remote <Y>
    ```
-   this is specially important just before requesting the pull-request
+   This is specially important just before requesting the pull-request
    (PR), because a modification at upstream master could affect your
    modifications.
 
-10. Go to your GitHub account and select your repo `<Y>`. A area in your
+10. After a push, go to your GitHub account and select your repo `<Y>`. An area in your
     GitHub page will be created (probably backgrounded in yellow) with
     a button that says: "Compare and pull request". If every thing
     went well, GitHub will inform to you that your PR can be
-    automatically merged. Write something explaining your contribution
+    automatically merged. Write some text explaining your contribution
     and click on "Create pull request". After that, in the page of the
     parent project `<X>`, in the section "Pull request" will appear a
-    new entry. The owner of the project will accept or not your PR.
+    new entry. The owner of the project will accept (or not) your PR.
 
-11. You have done your work and you can clean your branch with:
+11. You have done your work and you can clean your "feature" branch with:
 	```
     git checkout master             # Change to branch master
     git branch -d iss<Z>            # Delete the branch in your local <Y>
