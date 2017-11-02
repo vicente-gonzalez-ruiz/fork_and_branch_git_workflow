@@ -50,29 +50,29 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    ```
    to add a new file to the repo.
 
-	2. Use:
-	```
-    git rm <undesired_file>
-	```
-	to delete a undesired file from the repo.
+   2. Use:
+   ```
+   git rm <undesired_file>
+   ```
+   to delete a undesired file from the repo.
 	
-	3 Use:
-	```
-    git commit -am "Your comments here"
-	```
-	to update your local repo with your modifications.
+   3. Use:
+   ```
+   git commit -am "Your comments here"
+   ```
+   to update your local repo with your modifications.
 
-	4. Use:
-	```
-    git push
-	```
-	to synchronize your local copy `<Y>` with the remote one `<Y>`.
+   4. Use:
+   ```
+   git push
+   ```
+   to synchronize your local copy `<Y>` with the remote one `<Y>`.
 
-	5. Use:
-	```
-    git checkout <branch>
-	```
-	to work on a different branch <branch>.
+   5. Use:
+   ```
+   git checkout <branch>
+   ```
+   to work on a different branch <branch>.
 
 6. Performs a:
    ```
