@@ -23,7 +23,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    ```
    git remote add upstream <X>
    ```
-   (`<X>` can be found in the "Clone or download" button of the original
+   (`<X>` can be found in the "Clone or download" button of the original ("upstream")
    `<X>` repository)
 
 4. Revise the list of open issues at `<X>` (not at `<Y>`, you won't be
