@@ -35,7 +35,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    ```
    git checkout -b `iss<Z>`
    ```
-   you will be switched to new bran `iss<Z>`, something that can be
+   you will be switched to new branch `iss<Z>`, something that can be
    checked with:
    ```
    git branch
