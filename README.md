@@ -1,11 +1,11 @@
 # The Fork and Branch Git Workflow
 https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
-1. Fork the "upstream" (with URL: `<X>`) repository (do that in
+**1. Fork the "upstream" (with URL: `<X>`) repository (do that in
    upstream's GitHub page).  A new repository (with URL: `<Y>`) in
-   your GitHub account should appear.
+   your GitHub account should appear.**
 
-2. Clone your forked repository <X>:
+**2. Clone your forked repository <X>:**
    ```
    git clone <Y>
    ```
@@ -13,8 +13,8 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    should be always connected to the Internet and use the GitHub
    facilities.
 
-3. At this moment, your local copy of `<Y>` is only connected to your
-   remote repo `<Y>` at GitHub. You can check this with:
+**3. At this moment, your local copy of `<Y>` is only connected to your
+   remote repo `<Y>` at GitHub. You can check this with:**
    ```
    git remote -v
    ```
@@ -26,12 +26,12 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    (`<X>` can be found in the "Clone or download" button of the original ("upstream")
    `<X>` repository)
 
-4. Revise the list of open issues at `<X>` (not at `<Y>`, you won't be
+**4. Revise the list of open issues at `<X>` (not at `<Y>`, you won't be
    able to find issues at `<Y>` at this moment) and select one, for
    example, `iss<Z>`, where `<Z>` is the issue number that GitHub
    automatically generates for every new issue. With the aim of
    working in `iss<Z>`, create a new "feature" branch (in your local
-   copy of `<Y>`) with:
+   copy of `<Y>`) with:**
    ```
    git checkout -b `iss<Z>`
    ```
@@ -41,8 +41,8 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    git branch
    ```
    
-5. Perform your modifications and keep your repos, both local `<Y>` and
-   remote `<Y>` updated. Basically:
+**5. Perform your modifications and keep your repos, both local `<Y>` and
+   remote `<Y>` updated. Basically:**
    
    1. Use:
    ```
@@ -74,25 +74,25 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    ```
    to work on a different branch <branch>.
 
-6. Performs a:
+**6. Performs a:**
    ```
    git commit -am "Your comments here"
    ```
    to be sure that your local repo `<Y>` is updated.
 
-7. Synchronize your local repo `<Y>` with your remote repo `<Y>`
+**7. Synchronize your local repo `<Y>` with your remote repo `<Y>`
    "origin" (remember that the father repo is `<X>`, and that its name
-   is "upstream"):
+   is "upstream"):**
    ```
    git push --set-upstream origin iss<Z>
    ```
    
-8. Test that your repo `<Y>` at GitHub has a new branch `iss<Z>`. Log
+**8. Test that your repo `<Y>` at GitHub has a new branch `iss<Z>`. Log
    into GitHub and check that (click on the "Branch: master"
    button). Notice that the rest of current branches forked from `<X>`
-   will be also available, if any.
+   will be also available, if any.**
 
-9. Keep your fork `<Y>` always synchronized with `<X>`:
+**9. Keep your fork `<Y>` always synchronized with `<X>`:**
    ```
    git pull upstream master # Update your local branch <Z> of <Y> with master of <X>
    git push origin master   # Synchronize your local <Y> with your remote <Y>
@@ -101,16 +101,16 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    (PR), because a modification at upstream master could affect your
    modifications.
 
-10. After a push, go to your GitHub account and select your repo `<Y>`. An area in your
+**10. After a push, go to your GitHub account and select your repo `<Y>`. An area in your
     GitHub page will be created (probably backgrounded in yellow) with
     a button that says: "Compare and pull request". If every thing
     went well, GitHub will inform to you that your PR can be
     automatically merged. Write some text explaining your contribution
     and click on "Create pull request". After that, in the page of the
     parent project `<X>`, in the section "Pull request" will appear a
-    new entry. The owner of the project will accept (or not) your PR.
+    new entry. The owner of the project will accept (or not) your PR.**
 
-11. You have done your work and you can clean your "feature" branch with:
+**11. You have done your work and you can clean your "feature" branch with:**
 	```
     git checkout master             # Change to branch master
     git branch -d iss<Z>            # Delete the branch in your local <Y>
