@@ -35,7 +35,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    ```
    git checkout -b `iss<Z>`
    ```
-   you will be switched to new bran `iss<Z>`, something that can be
+   you will be switched to new branch `iss<Z>`, something that can be
    checked with:
    ```
    git branch
@@ -109,6 +109,12 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
     and click on "Create pull request". After that, in the page of the
     parent project `<original remote repository>`, in the section "Pull request" will appear a
     new entry. The owner of the project will accept (or not) your PR.**
+
+**The following image shows a pull request being performed, the blue haired developer (the fork propietary)
+    is asking the red haired developer (the propietary of the original repository) permission to add the fork changes to the 	             original repository,
+    the red haired developer will confirm the pull request and therefore the changes will be upload to the original repository.**
+	
+![alt text](http://atlassianblog.wpengine.com/wp-content/uploads/bitbucket411-blog-1200x-branches2.png)
 
 **11. You have done your work and you can clean your "feature" branch with:**
 	```
