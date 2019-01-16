@@ -33,17 +33,17 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    working in `iss<Z>`, create a new "feature" branch (in your local
    copy of `<forked remote repository>`) with:**
    ```
-   git checkout -b `iss<Z>`
+   git checkout -b iss<Z>
    ```
    you will be switched to new branch `iss<Z>`, something that can be
    checked with:
    ```
    git branch
    ```
-   
+
 **5. Perform your modifications and keep your repos, both local `<forked remote repository>` and
    remote `<forked remote repository>` updated. Basically:**
-   
+
    1. Use:
    ```
    git add <new_file>
@@ -55,7 +55,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    git rm <undesired_file>
    ```
    to delete a undesired file from the repo.
-	
+
    3. Use:
    ```
    git commit -am "Your comments here"
@@ -86,7 +86,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    ```
    git push --set-upstream origin iss<Z>
    ```
-   
+
 **8. Test that your repo `<forked remote repository>` at GitHub has a new branch `iss<Z>`. Log
    into GitHub and check that (click on the "Branch: master"
    button). Notice that the rest of current branches forked from `<original remote repository>`
@@ -97,7 +97,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    git pull upstream master # Update your local branch <Z> of <forked remote repository> with master of <original remote repository>
    git push origin master   # Synchronize your local <forked remote repository> with your remote <forked remote repository>
    ```
-   This is specially important just before requesting the pull-request
+   This is especially important just before requesting the pull-request
    (PR), because a modification at upstream master could affect your
    modifications.
 
@@ -110,10 +110,10 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
     parent project `<original remote repository>`, in the section "Pull request" will appear a
     new entry. The owner of the project will accept (or not) your PR.**
 
-**The following image shows a pull request being performed, the blue haired developer (the fork propietary)
-    is asking the red haired developer (the propietary of the original repository) permission to add the fork changes to the 	             original repository,
+**The following image shows a pull request being performed, the blue haired developer (the fork proprietary)
+    is asking the red haired developer (the proprietary of the original repository) permission to add the fork changes to the 	             original repository,
     the red haired developer will confirm the pull request and therefore the changes will be upload to the original repository.**
-	
+
 ![alt text](http://atlassianblog.wpengine.com/wp-content/uploads/bitbucket411-blog-1200x-branches2.png)
 
 **11. You have done your work and you can clean your "feature" branch with:**
