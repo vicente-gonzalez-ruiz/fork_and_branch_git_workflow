@@ -87,10 +87,10 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    git push --set-upstream origin iss<Z>
    ```
 
-8. **Test that your repo `<forked remote repository>` at GitHub has a new branch `iss<Z>`. Log
+8. **Test that your repo** `<forked remote repository>` **at GitHub has a new branch** `iss<Z>`. Log
    into GitHub and check that (click on the "Branch: master"
    button). Notice that the rest of current branches forked from `<original remote repository>`
-   will be also available, if any.**
+   will be also available, if any.
 
 9. **Keep your fork** `<forked remote repository>` **always synchronized** with `<original remote repository>`:
    ```
