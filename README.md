@@ -30,7 +30,7 @@ https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
    able to find issues at `<forked remote repository>` at this moment), **select one**, for
    example, `iss<Z>`, where `<Z>` is the issue number that GitHub
    automatically generates for every new issue. With the aim of
-   working in `iss<Z>`, ** and create a new "feature" branch** (in your local
+   working in `iss<Z>`, and create a new "feature" branch** (in your local
    copy of `<forked remote repository>`) with:
    ```
    git checkout -b iss<Z>
